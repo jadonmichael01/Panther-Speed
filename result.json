@@ -1,0 +1,34 @@
+{
+  "client": {
+    "rating": "0",
+    "loggedin": "0",
+    "isprating": "3.7",
+    "ispdlavg": "0",
+    "ip": "131.94.186.13",
+    "isp": "Florida International University",
+    "lon": "-80.3551",
+    "ispulavg": "0",
+    "country": "US",
+    "lat": "25.7593"
+  },
+  "bytes_sent": 51740672,
+  "download": 28004226.811601747,
+  "timestamp": "2022-11-01T01:35:02.893623Z",
+  "share": null,
+  "bytes_received": 36269552,
+  "ping": 19.119,
+  "upload": 40728171.766157605,
+  "server": {
+    "latency": 19.119,
+    "name": "Miami, FL",
+    "url": "http://tigobo.ecatel.us:8080/speedtest/upload.php",
+    "country": "United States",
+    "lon": "-80.2242",
+    "cc": "US",
+    "host": "tigobo.ecatel.us:8080",
+    "sponsor": "Tigo Business - Bolivia",
+    "lat": "25.7878",
+    "id": "28986",
+    "d": 13.485095583614779
+  }
+}

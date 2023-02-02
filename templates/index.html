@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskApp</title>
+    <style>
+        .todo {
+            padding: 20px;
+            margin: 10px;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>FlaskTODO</h1>
+    <hr>
+    <div class="content">
+<hr>
+    {% for todo in todos %}
+        <div class="todo">
+         <p>  <span>download: </span> {{ todo['download'] }} <br> <span>upload: </span> <i>({{ todo['upload']}})</i> <br> <span>time: </span> <i>({{ todo['timestamp']}})</i></p>
+         </div>
+    {% endfor %}
+    </div>
+</body>
+</html>
+

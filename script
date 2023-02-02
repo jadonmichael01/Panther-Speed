@@ -1,0 +1,4 @@
+#!/bin/bash
+/root/speedtest-cli --secure --json | jq . > result.json
+
+mongoimport -d wifi_result -c results --file result.json
